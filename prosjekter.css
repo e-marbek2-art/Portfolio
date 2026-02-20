@@ -42,6 +42,13 @@ nav a:hover {
 background:rgba(255,255,255,0.2);
 }
 
-.prosjekter {
-    display: inline-block;
+.bilder {
+    display: flex;          
+    gap: 20px;              
+    flex-wrap: wrap;        
+}
+
+.bilder img {
+    width: 200px;           
+    height: auto;           
 }
