@@ -1,6 +1,96 @@
 
 body {
-    background-color: #eef1ff;
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#ffffff;
+color:#111;
+}
+
+header {
+background:#3535c6;
+padding:20px;
+text-align:center;
+width:100%;
+}
+
+header h1 {
+color:white;
+margin:0 0 15px 0;
+font-size:28px;
+}
+
+nav ul {
+list-style:none;
+padding:0;
+margin:0;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+nav a {
+color:white;
+text-decoration:none;
+font-size:14px;
+padding:6px 10px;
+border-radius:6px;
+transition:0.2s;
+}
+
+nav a:hover {
+background:rgba(255,255,255,0.2);
+}
+
+.info {
+text-align:center;
+padding:80px 20px;
+}
+
+.info h2 {
+font-size:40px;
+color:#3535c6;
+margin-bottom:20px;
+}
+
+.info p {
+max-width:600px;
+margin:0 auto 30px auto;
+font-size:18px;
+}
+
+.btn {
+display:inline-block;
+background:#3535c6;
+color:white;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:0.2s;
+}
+
+.btn:hover {
+background:#2a2aa3;
+}
+
+.om {
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.om h2 {
+color:#3535c6;
+margin-bottom:15px;
+}
+
+footer {
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
 }
 
 header {
@@ -32,52 +122,15 @@ nav a {
     font-size: 14px;
 }
 
-main {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 15px;
+img {
+    width: 25%;
+    max-width: 1100px;
+    height: auto;
+    display: block;
+    margin-left: 10px;
 }
 
-main h2 {
-    color: #333;
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-main ul {
-    padding-left: 20px;
-}
-
-footer {
-    background: #4141d2;
-    text-align: center;
-    padding: 20px;
-    border-radius: 40px;
-    width: 100%;
-    margin-bottom: 200px;
-    margin-right: 100px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-div {
-    text-align: left;
-    font-size: 15px;
-    margin-left: 25px;
-    color: white;
-}
-
-.button1 {
-    align-items: center;
-    margin-left: 43%;
-    background-color: rgb(3, 187, 3);
-    color: white;
-    border-radius: 20px;
-    font-size: 25px;
-    height: 15px;
+.logo img {
+height:45px;
+width:auto;
 }
